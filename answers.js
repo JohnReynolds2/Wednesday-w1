@@ -6,8 +6,16 @@ for (i = 1; i <= 20; i++) {
 */
 
 //loop even numbers 0 - 200
-
+/*
 for (i = 0; i <= 200; i += 2) {
 	console.log(i);
 } 
+*/
+
+
+//Excited Kitten loop
+
+for (i = 0; i <= 20; i ++) {
+	console.log("Love me, pet me! HSSSSSS!");
+}
 
