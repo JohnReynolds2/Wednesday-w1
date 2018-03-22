@@ -61,7 +61,7 @@ for(let i = 0; i<=ninjaTurtles.length-1; i++) {
 */
 
 //Return of the Closets
-
+/*
 const kristynsCloset = [
   "left shoe",
   "cowboy boots",
@@ -115,7 +115,17 @@ for (i = 0; i < kristynsCloset.length; i++) {
 
 //Thom's inventory
 console.log(thomsCloset[0] + thomsCloset[1] + thomsCloset[2]);
+*/
 
+//multiples of 3 and 5 
+
+let sum = 0
+
+for (i = 0; i <= 1000; i++) {
+	if (i % 5 === 0 || i % 3 === 0) {
+		sum = sum + i;
+	}
+}
 
 
 
