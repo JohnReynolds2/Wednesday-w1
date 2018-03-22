@@ -61,6 +61,7 @@ for(let i = 0; i<=ninjaTurtles.length-1; i++) {
 */
 
 //Return of the Closets
+
 const kristynsCloset = [
   "left shoe",
   "cowboy boots",
@@ -106,8 +107,14 @@ console.log("Kristyn will wear a " + kristynsCloset[0] + ", " + kristynsCloset[3
 console.log("Kristyn will wear a " + kristynsCloset[1] + ", " + kristynsCloset[4] + ", and " + kristynsCloset[2]);
 console.log("Kristyn will wear a " + kristynsCloset[2] + ", " + kristynsCloset[3] + ", and " + kristynsCloset[2]);
 
+//LOOPS through closests
+// Dirty laundry
+for (i = 0; i < kristynsCloset.length; i++) {
+	console.log("WHIRR: Now washing " + kristynsCloset[i]);
+}
 
-
+//Thom's inventory
+console.log(thomsCloset[0] + thomsCloset[1] + thomsCloset[2]);
 
 
 
